@@ -14,19 +14,50 @@ html {
     background-color: #000;
 }
 
-#header #nav li {
+#nav > li {
     display: inline-block;
+}
+
+#nav li li {
+    display: block;
+    position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li a {
+    text-decoration: none;
+    display: block;
     line-height: 46px;
     padding: 0 24px;
 }
 
-#header #nav li:hover {
-    background-color: #aaa;
-    color: #000;
+#nav .subnav {
+    min-width: 160px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#header #nav li a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
+#nav .subnav a {
+    color:#000;
+    padding: 0 12px;
+    line-height: 38px;
 }
+
+/* #slider {
+    min-height: 500px;
+    background-color: #333;
+} */
