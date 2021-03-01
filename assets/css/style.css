@@ -9,6 +9,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#nav {
+    display: inline-block;
+}
+
 #header {
     height: 46px;
     background-color: #000;
@@ -57,6 +61,20 @@ html {
     line-height: 38px;
 }
 
+#header .search-btn {
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    float: right;
+}
+#header .ti-search {
+    font-weight: bold;
+}
+
+#header .search-btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
 /* #slider {
     min-height: 500px;
     background-color: #333;
