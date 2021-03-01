@@ -14,7 +14,6 @@ html {
 }
 
 #header {
-    height: 46px;
     background-color: #000;
     top: 0;
     left: 0;
@@ -80,7 +79,6 @@ html {
 }
 
 #slider {
-    margin-top: 46px;
     height: 1500px;
     background-color: #333;
 }
