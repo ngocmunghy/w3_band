@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* Common */
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +18,27 @@ html {
 .text-white {
     color: #fff !important;
 }
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33333%;
+}
+
+/* Main */
 
 #nav {
     display: inline-block;
@@ -165,9 +188,9 @@ html {
 
 
 #content .member-item {
-    width: 255px;
+    /* width: 255px;
     height: 221px;
-    float: left;
+    float: left; */
     text-align: center;
 }
 
@@ -220,14 +243,11 @@ html {
 }
 
 .place-list {
-    margin: 32px -8px 0;
+    /* margin: 32px -8px 0; */
+    margin-top: 32px;
+    margin-bottom: 0;
 }
 
-.place-list .place-item {
-    float: left;
-    width: 33.333%;
-    padding: 0 8px;
-}
 
 .place-list img {
     width: 100%;
